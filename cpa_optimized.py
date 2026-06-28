@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OPTIMIZED TESTER - Untuk Testing Bandwidth
+BANDWIDTH OPTIMIZED TESTER 
 """
 
 import socket
