@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MULTI-ENDPOINT BANDWIDTH TESTER - FULL VERSION
+MULTI-ENDPOINT BANDWIDTH TESTER
 Dengan Auto Generator, Validasi, dan Testing Multi Endpoint
 """
 
@@ -441,11 +441,11 @@ class MultiEndpointTester:
             last_time = current_time
     
     def interactive_input(self):
-        UIHelper.print_header("MULTI-ENDPOINT BANDWIDTH TESTER", Config.VERSION)
+        UIHelper.print_header("CAP MULTI-ENDPOINT BANDWIDTH TESTER", Config.VERSION)
         
         # Target URL
         print(f"\n{Fore.WHITE}📝 Masukkan Target URL:")
-        print(f"{Fore.LIGHTBLACK_EX}Contoh: https://www.ronijablo.co.il")
+        print(f"{Fore.LIGHTBLACK_EX}Exmp: https://www.idf.co.il")
         
         while True:
             url_input = input(f"{Fore.GREEN}➜ {Fore.WHITE}URL: ").strip()
@@ -614,7 +614,7 @@ class MultiEndpointTester:
         success_rate = (stats['success_requests'] / max(1, stats['total_requests']) * 100)
         
         print(f"\n\n{Fore.CYAN}{'='*70}")
-        print(f"{Fore.YELLOW}📊 MULTI-ENDPOINT TEST RESULTS")
+        print(f"{Fore.YELLOW}📊 CPA MULTI-ENDPOINT TEST RESULTS")
         print(f"{Fore.CYAN}{'='*70}")
         
         print(f"\n{Fore.WHITE}📈 Overall Statistics:")
